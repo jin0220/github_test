@@ -1,7 +1,14 @@
 <!DOCTYPE html>
-<html lang="ko" id="no-fouc" style="opacity:1;" xmlns:th="http://www.thymeleaf.org">
-
-<footer th:fragment="footerFragment">
+<html lang="ko" id="no-fouc" style="opacity:1;">
+<head>
+    <meta charset="UTF-8">
+    <title>우수AMS</title>
+</head>
+<body>
+<a href="#fs_footer" class="skip_nav">하단링크 바로가기</a>
+<!--div id="fs_wrap"-->
+<foother th:fragment="footerFragment">
+<footer id="fs_footer">
     <div class ="fs_footer_box clear">
         <div class ="footer_top_menu_list_cover">
             <div class="foot_logo"><a href="#"><img src="" alt=""/></a></div>
@@ -20,48 +27,14 @@
                     <a class="list">F 055-274-5016</a>
                 </div>
             </div>
-                <div class="list title">
-                    우수AMS(주) 울산지점
-                    <span class="is-mobile list_caret">
-                    <i class="far fa-angle-up"></i>
-                    <i class="far fa-angle-down"></i>
-                </span>
-
-                    <div class="menu_sublist">
-                        <a class="list">울산광역시 울주군 상북면 산전후리로 40-5</a>
-                        <a class="list">T 055-264-8011~5</a>
-                        <a class="list">F 055-264-8016</a>
-                    </div>
-                </div>
-                <div class="list title">
-                    우수정기(주)
-                    <span class="is-mobile list_caret">
-                    <i class="far fa-angle-up"></i>
-                    <i class="far fa-angle-down"></i>
-                </span>
-
-                    <div class="menu_sublist">
-                        <a class="list">울산광역시 울주군 상북면 산전후리로 40-5</a>
-                        <a class="list">T 055-333-2211</a>
-                        <a class="list">F 055-264-8016</a>
-                    </div>
-                </div>
-                <div class="list title">
-                    우수AMS(주)CASCO
-                    <span class="is-mobile list_caret">
-                    <i class="far fa-angle-up"></i>
-                    <i class="far fa-angle-down"></i>
-                </span>
-
-                    <div class="menu_sublist">
-                        <a class="list">울산광역시 울주군 상북면 거리 1176-7</a>
-                        <a class="list">T 055-264-8011~5</a>
-                        <a class="list">F 055-264-8016</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-</footer>
 
+
+
+
+
+
+</body>
 </html>
