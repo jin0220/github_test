@@ -50,6 +50,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> develop
     <configuration name="WoosuSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="woosu-spring.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="woosu.woosuspring.WoosuSpringApplication" />
